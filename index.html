@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+
+    
+</head>
+<body>
+    <img style="padding-left: 575px;" src="imagens/img formulario.png" alt="icone de formulario" width="150">
+    <h1 style="text-align: center;">Formulário auxiliar para compras</h1>
+
+    <br><br>
+
+    <form style="padding-left: 430px;" action="exercicioprofmiqueias.com.br" method="post" enctype="text/plain">
+        <h2>Dados Pessoais</h2>
+        <input type="text" nome="nome" placeholder="Nome">
+        <br> <br>
+        <input type="text" nome="sobrenome" placeholder="Sobrenome">
+        <br><br>
+        <input type="number" nome="idade" placeholder="Idade">
+        <br><br>
+        <input type="text" nome="CPF" placeholder="CPF">
+        <br> <br>
+        <input type="email" nome="email" placeholder="Email">
+        <br><br>
+        <input type="tel" nome="telefone" placeholder="Telefone">
+
+        <br><br><br>
+
+        <p>Selecione seu gênero:</p>
+        <input nome="genero" type="radio" value="feminino">Feminino
+        <input nome="genero" type="radio" value="masculino">Masculino
+        <br><br><br>
+        <p>Registre sua data de compra:</p>
+        <input type="date">
+        <br><br><br>
+    
+        <p>Preencha cuidadosamente:</p>
+        <input type="text" nome="rua" placeholder="Rua">
+        <br><br>
+        <input type="text" nome="casa" placeholder="Nº">
+        <br><br>
+        <input type="text" nome="Bairro" placeholder="Bairro">
+        <br><br>
+        <input type="text" nome="CEP" placeholder="CEP">
+
+        <br><br>
+        <p>Crie uma senha</p>
+        <input type="password" nome="senha" placeholder="Crie uma senha">
+       
+        
+
+        <br><br><br>
+
+        <p>Quem está autorizado a receber o seu pedido? (Informe ao selecionar qualquer opção)</p>
+        <input type="checkbox" nome="autorização" value="1"> Mãe<br>
+        <input type="checkbox" nome="autorização" value="2"> Pai<br>
+        <input type="checkbox" nome="autorização" value="3"> Irmão(a)<br>
+        <input type="checkbox" nome="autorização" value="4"> Avô(a)<br>
+        <input type="checkbox" nome="autorização" value="5"> Nenhuma opção acima<br><br>
+        <input type="text" nome="autorização" placeholder="Informe o nome">
+        <br><br><br>
+
+        <h2>Sobre o pedido</h2>
+        <p>Selecione a quantidade do produto:</p>
+        <input type="number">
+        <br><br><br>
+        <p>Selecione a cor através do seletor</p>
+        <input type="color">
+        <br><br>
+        <p>Alguma observação? Informe abaixo:</p>
+        <textarea name="Observação(opcional)">(Opcional)</textarea>
+
+        <br><br>
+        
+        <br><br><br>
+        <p>Avalie de acordo o nivel de FACILIDADE que você teve ao preencher esse formulario:</p>
+        <input type="range">
+
+
+        <br><br><br><br>
+        
+        <input style="background-color: black; border: none; height: 30px; width: 80px; border-radius: 15px; color: white; text-align: center;" type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
